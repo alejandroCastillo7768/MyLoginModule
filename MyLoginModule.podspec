@@ -40,9 +40,9 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.test_spec 'Tests' do |test_spec|
-  test_spec.source_files = 'Example/Tests/**/*.{h,m,swift}'
-  test_spec.ios.resources = ['Example/Tests/**/*.{json}']
-  end
+#  s.test_spec 'Tests' do |test_spec|
+#  test_spec.source_files = 'Example/Tests/**/*.{h,m,swift}'
+#  test_spec.ios.resources = ['Example/Tests/**/*.{json}']
+#  end
   
 end

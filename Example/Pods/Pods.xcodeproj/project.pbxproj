@@ -27,8 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08375B5ABA442C5AF4DA292B27FE4217 /* MyLoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C073BC55F0C42F5AF76089C7B327DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		08375B5ABA442C5AF4DA292B27FE4217 /* MyLoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLoginModule.framework; path = MyLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C073BC55F0C42F5AF76089C7B327DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1F934B8C17ACA1CEEA10E995264A62A5 /* MyLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-prefix.pch"; sourceTree = "<group>"; };
 		2B35581463CABBCBF64882D162EF03E3 /* Pods-MyLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E23A3E7880FDB6C41E2ED7FF5EB863C /* Pods-MyLoginModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoginModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -37,16 +37,16 @@
 		4A5CE055ED791CD79A5C400AA9DB5C84 /* MyLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-umbrella.h"; sourceTree = "<group>"; };
 		6F2FEC8B0DB099E3BBC59880FC1EE456 /* MyLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLoginModule.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7646F6383FE358BCC3C243E3163212F1 /* Pods_MyLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7646F6383FE358BCC3C243E3163212F1 /* Pods_MyLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyLoginModule_Tests.framework; path = "Pods-MyLoginModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEA6BC7BFAF4638460C057B618DB2A5 /* Pods-MyLoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A93A8821F71B3A0452B5A90761335A39 /* Pods-MyLoginModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLoginModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AB1C42FAD2AC2B2C323D4CDF0AAA4E8B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyLoginModule/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B72D924A148392A1659BC38F25D527E6 /* Pods-MyLoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B944C80E7751682E6F8777F2538C20DE /* Pods-MyLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD3C6484C542852E99DF9C2F9D3B2784 /* Pods-MyLoginModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoginModule_Tests-Info.plist"; sourceTree = "<group>"; };
-		D327BA1387CEEAF455CE452B81E33DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D7E8B40F0B756B33B89B5CE6CC11B2B6 /* MyLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D327BA1387CEEAF455CE452B81E33DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7E8B40F0B756B33B89B5CE6CC11B2B6 /* MyLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1EBBD8B8360AA8F79AFB8D1BEE5720C /* MyLoginModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.debug.xcconfig; sourceTree = "<group>"; };
 		E38BF24810B273E85730B13291D9B185 /* Pods-MyLoginModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLoginModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB595DB8E63D1F4794067257F4C0E970 /* MyLoginModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.release.xcconfig; sourceTree = "<group>"; };
@@ -244,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1EBBD8B8360AA8F79AFB8D1BEE5720C /* MyLoginModule.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -464,7 +465,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -475,6 +477,7 @@
 			baseConfigurationReference = 2B35581463CABBCBF64882D162EF03E3 /* Pods-MyLoginModule_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -508,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB595DB8E63D1F4794067257F4C0E970 /* MyLoginModule.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -541,6 +545,7 @@
 			baseConfigurationReference = B944C80E7751682E6F8777F2538C20DE /* Pods-MyLoginModule_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
