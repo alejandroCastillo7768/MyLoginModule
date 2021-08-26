@@ -1,0 +1,16 @@
+PODS:
+  - MyLoginModule (0.1.0)
+
+DEPENDENCIES:
+  - MyLoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  MyLoginModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLoginModule: d2f2ca9ec84f953c82d30528d35753d596faf0b7
+
+PODFILE CHECKSUM: 0d969481a812a9ffd2e18c4c69733cd501c51d24
+
+COCOAPODS: 1.10.2
