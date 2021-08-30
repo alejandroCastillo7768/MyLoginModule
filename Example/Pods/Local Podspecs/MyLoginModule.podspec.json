@@ -1,6 +1,6 @@
 {
   "name": "MyLoginModule",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "summary": "A brief description of MyLoginModule.",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/alejandroCastillo7768/MyLoginModule.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "13.0"

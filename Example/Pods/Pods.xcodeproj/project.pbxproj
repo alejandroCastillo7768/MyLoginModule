@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07002FBF35268203D386E6773C3E0137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0A8CF0CA89C712CF9BB763EFCBE19AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8A00F4A7879BC0853ED98BA4ED8CE14E /* MyLoginModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5CE055ED791CD79A5C400AA9DB5C84 /* MyLoginModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2C38550C33818B1A6E4F6B750A58F31 /* MyLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B215DF6AFFEB3B64F9D97218CE3DC /* MyLoginModule-dummy.m */; };
+		25C110DADC1B2993BC1C86F4A58BBDA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72223F79B0CC465C7D6EF3DE4C4A48A8 /* LoginViewController.swift */; };
+		3738B01A281F7A9EE25E05FE9418E892 /* MyLoginModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD65D2D2114053191BE32D3A3181096E /* MyLoginModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF8FF636C3BDD614F6C8F088A3117C9 /* LoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4625DCD34C2DEC8993402E31AE560F24 /* LoginViewController.xib */; };
+		9E5434EE778A7E332F74FDA8C744824C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CE4A44F1045B40C40BDBFFFC6FF978E6 /* Pods-MyLoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA6BC7BFAF4638460C057B618DB2A5 /* Pods-MyLoginModule_Tests-dummy.m */; };
-		D526552C26DD0BF0006A341C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526552A26DD0BF0006A341C /* LoginViewController.swift */; };
-		D526552D26DD0BF0006A341C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D526552B26DD0BF0006A341C /* LoginViewController.xib */; };
 		E2FB511347827696CE0A5018483B1B5E /* Pods-MyLoginModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72D924A148392A1659BC38F25D527E6 /* Pods-MyLoginModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50EEB72A01446460E477854EA337299 /* MyLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB7DE6F4D0AE7A3F079EBB56041FA5 /* MyLoginModule-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90C5F72551BC297BCDADF86F3F847ABD /* PBXContainerItemProxy */ = {
+		75F9CDF869788434C05635C9C80147A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,30 +29,30 @@
 
 /* Begin PBXFileReference section */
 		08375B5ABA442C5AF4DA292B27FE4217 /* MyLoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C073BC55F0C42F5AF76089C7B327DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1F934B8C17ACA1CEEA10E995264A62A5 /* MyLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-prefix.pch"; sourceTree = "<group>"; };
+		199CE010692EBE1030740CC29A9D9728 /* MyLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLoginModule-Info.plist"; sourceTree = "<group>"; };
+		2060B035C0AFEE1BC6120B16AE22EA5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		281261B12DF0BD4789511304F59BC7B5 /* MyLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-prefix.pch"; sourceTree = "<group>"; };
 		2B35581463CABBCBF64882D162EF03E3 /* Pods-MyLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E23A3E7880FDB6C41E2ED7FF5EB863C /* Pods-MyLoginModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoginModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C8C561E923486FB058CBD5EEA41FA8C /* Pods-MyLoginModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLoginModule_Tests.modulemap"; sourceTree = "<group>"; };
-		3E9B215DF6AFFEB3B64F9D97218CE3DC /* MyLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLoginModule-dummy.m"; sourceTree = "<group>"; };
-		4A5CE055ED791CD79A5C400AA9DB5C84 /* MyLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-umbrella.h"; sourceTree = "<group>"; };
-		6F2FEC8B0DB099E3BBC59880FC1EE456 /* MyLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLoginModule.modulemap; sourceTree = "<group>"; };
+		443A295D3E5CB5FC59E42B60116313DB /* MyLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLoginModule.modulemap; sourceTree = "<group>"; };
+		4625DCD34C2DEC8993402E31AE560F24 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoginViewController.xib; path = MyLoginModule/Classes/Login/LoginViewController.xib; sourceTree = "<group>"; };
+		47D16CFF47A1A5ECFA12F7CA298DF4F5 /* MyLoginModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.release.xcconfig; sourceTree = "<group>"; };
+		72223F79B0CC465C7D6EF3DE4C4A48A8 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = MyLoginModule/Classes/Login/LoginViewController.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7646F6383FE358BCC3C243E3163212F1 /* Pods_MyLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D784B8872802657DD809F579F2B5FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CEA6BC7BFAF4638460C057B618DB2A5 /* Pods-MyLoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A93A8821F71B3A0452B5A90761335A39 /* Pods-MyLoginModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLoginModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B72D924A148392A1659BC38F25D527E6 /* Pods-MyLoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B944C80E7751682E6F8777F2538C20DE /* Pods-MyLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD3C6484C542852E99DF9C2F9D3B2784 /* Pods-MyLoginModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLoginModule_Tests-Info.plist"; sourceTree = "<group>"; };
-		D327BA1387CEEAF455CE452B81E33DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D526552A26DD0BF0006A341C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = MyLoginModule/Classes/LoginViewController.swift; sourceTree = "<group>"; };
-		D526552B26DD0BF0006A341C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = MyLoginModule/Classes/LoginViewController.xib; sourceTree = "<group>"; };
-		D7E8B40F0B756B33B89B5CE6CC11B2B6 /* MyLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E1EBBD8B8360AA8F79AFB8D1BEE5720C /* MyLoginModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.debug.xcconfig; sourceTree = "<group>"; };
+		CD65D2D2114053191BE32D3A3181096E /* MyLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLoginModule-umbrella.h"; sourceTree = "<group>"; };
+		D0AB7DE6F4D0AE7A3F079EBB56041FA5 /* MyLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLoginModule-dummy.m"; sourceTree = "<group>"; };
+		E19F6F7DA523768CEADF8E34221ACDA3 /* MyLoginModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.debug.xcconfig; sourceTree = "<group>"; };
 		E38BF24810B273E85730B13291D9B185 /* Pods-MyLoginModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLoginModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB595DB8E63D1F4794067257F4C0E970 /* MyLoginModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLoginModule.release.xcconfig; sourceTree = "<group>"; };
-		EB8C441406E714309A6102A560E35F7A /* MyLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLoginModule-Info.plist"; sourceTree = "<group>"; };
+		F009C6EF47810182F6A53588FF5B6340 /* MyLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,27 +64,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF0593D44D65B0FC8973690DBBC36924 /* Frameworks */ = {
+		E551C8B7A33887275D5F453BCFF5DFDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07002FBF35268203D386E6773C3E0137 /* Foundation.framework in Frameworks */,
+				9E5434EE778A7E332F74FDA8C744824C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		318026D24234ECDB50B21AA0A96ECAC0 /* MyLoginModule */ = {
+		15DE33BBA3663263CB7255DC81976F92 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				585D8A53B01368D836A15275C0EA734B /* Pod */,
-				AEF2DB2759FA756599AA3EBF9AA197C0 /* Support Files */,
-				D526552A26DD0BF0006A341C /* LoginViewController.swift */,
-				D526552B26DD0BF0006A341C /* LoginViewController.xib */,
+				8CAED00EB39B530EA0DAA9DB6AAFE1CB /* MyLoginModule */,
 			);
-			name = MyLoginModule;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -93,16 +89,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		585D8A53B01368D836A15275C0EA734B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13C073BC55F0C42F5AF76089C7B327DA /* LICENSE */,
-				D7E8B40F0B756B33B89B5CE6CC11B2B6 /* MyLoginModule.podspec */,
-				D327BA1387CEEAF455CE452B81E33DE0 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5D72DC67E3921F525C3DE4EB5497365D /* Products */ = {
@@ -131,19 +117,26 @@
 			path = "Target Support Files/Pods-MyLoginModule_Tests";
 			sourceTree = "<group>";
 		};
-		AEF2DB2759FA756599AA3EBF9AA197C0 /* Support Files */ = {
+		841C6B115B5E2F22FD88E5AB365A2464 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6F2FEC8B0DB099E3BBC59880FC1EE456 /* MyLoginModule.modulemap */,
-				3E9B215DF6AFFEB3B64F9D97218CE3DC /* MyLoginModule-dummy.m */,
-				EB8C441406E714309A6102A560E35F7A /* MyLoginModule-Info.plist */,
-				1F934B8C17ACA1CEEA10E995264A62A5 /* MyLoginModule-prefix.pch */,
-				4A5CE055ED791CD79A5C400AA9DB5C84 /* MyLoginModule-umbrella.h */,
-				E1EBBD8B8360AA8F79AFB8D1BEE5720C /* MyLoginModule.debug.xcconfig */,
-				EB595DB8E63D1F4794067257F4C0E970 /* MyLoginModule.release.xcconfig */,
+				2060B035C0AFEE1BC6120B16AE22EA5D /* LICENSE */,
+				F009C6EF47810182F6A53588FF5B6340 /* MyLoginModule.podspec */,
+				8D784B8872802657DD809F579F2B5FA1 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MyLoginModule";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8CAED00EB39B530EA0DAA9DB6AAFE1CB /* MyLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				72223F79B0CC465C7D6EF3DE4C4A48A8 /* LoginViewController.swift */,
+				4625DCD34C2DEC8993402E31AE560F24 /* LoginViewController.xib */,
+				841C6B115B5E2F22FD88E5AB365A2464 /* Pod */,
+				D7AD61AD24B6B1ED1A0D30137B758E65 /* Support Files */,
+			);
+			name = MyLoginModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C5CA924EB1131DFD0CCC4344937C998A /* Targets Support Files */ = {
@@ -158,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D2A2746E6BF2A6493FEEDE4DC3C5B63F /* Development Pods */,
+				15DE33BBA3663263CB7255DC81976F92 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5D72DC67E3921F525C3DE4EB5497365D /* Products */,
 				C5CA924EB1131DFD0CCC4344937C998A /* Targets Support Files */,
@@ -173,22 +166,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2A2746E6BF2A6493FEEDE4DC3C5B63F /* Development Pods */ = {
+		D7AD61AD24B6B1ED1A0D30137B758E65 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				318026D24234ECDB50B21AA0A96ECAC0 /* MyLoginModule */,
+				443A295D3E5CB5FC59E42B60116313DB /* MyLoginModule.modulemap */,
+				D0AB7DE6F4D0AE7A3F079EBB56041FA5 /* MyLoginModule-dummy.m */,
+				199CE010692EBE1030740CC29A9D9728 /* MyLoginModule-Info.plist */,
+				281261B12DF0BD4789511304F59BC7B5 /* MyLoginModule-prefix.pch */,
+				CD65D2D2114053191BE32D3A3181096E /* MyLoginModule-umbrella.h */,
+				E19F6F7DA523768CEADF8E34221ACDA3 /* MyLoginModule.debug.xcconfig */,
+				47D16CFF47A1A5ECFA12F7CA298DF4F5 /* MyLoginModule.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyLoginModule";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8165B03496D7AF882ADAF6D3CEF6B6E9 /* Headers */ = {
+		2CF6B0FB637BDAB139B029067841FE3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A00F4A7879BC0853ED98BA4ED8CE14E /* MyLoginModule-umbrella.h in Headers */,
+				3738B01A281F7A9EE25E05FE9418E892 /* MyLoginModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9003A027BB266CEA938C5A624C3E585F /* PBXTargetDependency */,
+				E2542746B4A7EDD3982CDA923B8E8D0F /* PBXTargetDependency */,
 			);
 			name = "Pods-MyLoginModule_Tests";
 			productName = "Pods-MyLoginModule_Tests";
@@ -224,12 +224,12 @@
 		};
 		9EA55113FC8734BE4AC58E99F9312578 /* MyLoginModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F875FC460AA891AB548731F78992B6A /* Build configuration list for PBXNativeTarget "MyLoginModule" */;
+			buildConfigurationList = 8B41D8D982EE477DD50FEB89C2E11322 /* Build configuration list for PBXNativeTarget "MyLoginModule" */;
 			buildPhases = (
-				8165B03496D7AF882ADAF6D3CEF6B6E9 /* Headers */,
-				254FD3DE1FCEBCE260E27312701E5A68 /* Sources */,
-				CF0593D44D65B0FC8973690DBBC36924 /* Frameworks */,
-				14DAD4C4E6DA9FC9511AD8665E7B2CB4 /* Resources */,
+				2CF6B0FB637BDAB139B029067841FE3A /* Headers */,
+				76AC3EA6CCC58141F4FB9AC14638163C /* Sources */,
+				E551C8B7A33887275D5F453BCFF5DFDF /* Frameworks */,
+				799F88F1F0065549D0C0A907221EC03A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -248,11 +248,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					9EA55113FC8734BE4AC58E99F9312578 = {
-						LastSwiftMigration = 1250;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,11 +269,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14DAD4C4E6DA9FC9511AD8665E7B2CB4 /* Resources */ = {
+		799F88F1F0065549D0C0A907221EC03A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D526552D26DD0BF0006A341C /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +286,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		254FD3DE1FCEBCE260E27312701E5A68 /* Sources */ = {
+		76AC3EA6CCC58141F4FB9AC14638163C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D526552C26DD0BF0006A341C /* LoginViewController.swift in Sources */,
-				A2C38550C33818B1A6E4F6B750A58F31 /* MyLoginModule-dummy.m in Sources */,
+				25C110DADC1B2993BC1C86F4A58BBDA3 /* LoginViewController.swift in Sources */,
+				3AF8FF636C3BDD614F6C8F088A3117C9 /* LoginViewController.xib in Sources */,
+				E50EEB72A01446460E477854EA337299 /* MyLoginModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,21 +307,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9003A027BB266CEA938C5A624C3E585F /* PBXTargetDependency */ = {
+		E2542746B4A7EDD3982CDA923B8E8D0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLoginModule;
 			target = 9EA55113FC8734BE4AC58E99F9312578 /* MyLoginModule */;
-			targetProxy = 90C5F72551BC297BCDADF86F3F847ABD /* PBXContainerItemProxy */;
+			targetProxy = 75F9CDF869788434C05635C9C80147A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6A3EA85FA5185761C7FE2CBA54475528 /* Debug */ = {
+		38289E721527C6E8461F2B3A15622069 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1EBBD8B8360AA8F79AFB8D1BEE5720C /* MyLoginModule.debug.xcconfig */;
+			baseConfigurationReference = 47D16CFF47A1A5ECFA12F7CA298DF4F5 /* MyLoginModule.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -347,13 +341,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -517,12 +511,11 @@
 			};
 			name = Release;
 		};
-		EB46436DF28CA2074C6E8E13E9F31870 /* Release */ = {
+		D4E7D0D5AF491CAB2924531AB85C5C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB595DB8E63D1F4794067257F4C0E970 /* MyLoginModule.release.xcconfig */;
+			baseConfigurationReference = E19F6F7DA523768CEADF8E34221ACDA3 /* MyLoginModule.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -545,11 +538,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F212EDFAC109105CC693B921CC4F8809 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -606,11 +598,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F875FC460AA891AB548731F78992B6A /* Build configuration list for PBXNativeTarget "MyLoginModule" */ = {
+		8B41D8D982EE477DD50FEB89C2E11322 /* Build configuration list for PBXNativeTarget "MyLoginModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A3EA85FA5185761C7FE2CBA54475528 /* Debug */,
-				EB46436DF28CA2074C6E8E13E9F31870 /* Release */,
+				D4E7D0D5AF491CAB2924531AB85C5C2B /* Debug */,
+				38289E721527C6E8461F2B3A15622069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

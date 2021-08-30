@@ -1,5 +1,5 @@
 PODS:
-  - MyLoginModule (0.1.0)
+  - MyLoginModule (1.1.0)
 
 DEPENDENCIES:
   - MyLoginModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyLoginModule: faebc6091f4f01b5bda51d0ab48602c031cf3125
+  MyLoginModule: d53ae3b13a07c44dc3f8c19ebe60a3fb78e7aab5
 
 PODFILE CHECKSUM: 0d969481a812a9ffd2e18c4c69733cd501c51d24
 
