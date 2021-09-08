@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MyLoginModule'
-    s.version          = '2.0.0'
+    s.version          = '2.1.0'
     s.summary          = 'A brief description of MyLoginModule.'
     s.swift_version    = '5.0'
     # This description is used to generate tags and improve search results.
@@ -30,11 +30,16 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '13.0'
     
-    s.source_files = 'MyLoginModule/Classes/**/*.{swift}'
+#    s.source_files = 'MyLoginModule/Classes/**/*.{swift}'
+#    s.resources = 'MyLoginModule/**/*.{xib}'
+
+    s.source_files = 'MyLoginModule/Classes/**/*'
+#    s.resources = 'MyLoginModule/Classes/**/*'
     
+#    s.dependency 'React'
     # s.resource_bundles = { 'MyLoginModule' => ['MyLoginModule/Classes/**/*.{xib}'] }
     
-    s.resources = 'MyLoginModule/**/*.{xib}'
+    
     
     #REACT
     
@@ -52,7 +57,7 @@ Pod::Spec.new do |s|
 #    s.source = { :git => 'https://github.com/facebook/react-native.git' }
 #    s.source_files   = '../**/*.{h,m}'
 #    s.source_files = '**/*'
-    s.dependency  'React'
+#    s.dependency  'React'
     #    s.preserve_paths = '**/*.{h,m}'
     
 #    s.source       = { :git => "https://github.com/react-native-community/react-native-masked-view.git" }

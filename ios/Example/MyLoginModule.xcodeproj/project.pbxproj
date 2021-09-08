@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35C9ADF5AD1E764D0BD0A63A /* Pods_MyLoginModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA4D53B9D67A0A4D96F6968 /* Pods_MyLoginModule_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A45FACFF72D135875E76DB34 /* libPods-MyLoginModule_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2F2805F0F8A25F2ACAD8E1 /* libPods-MyLoginModule_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35FFD9E99346AAB59220E854 /* Pods-MyLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLoginModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		385F68FC1992D5C4AD151465 /* Pods-MyLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLoginModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MyLoginModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLoginModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E3CF65301F254EC0F6C90E2 /* MyLoginModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLoginModule.podspec; path = ../MyLoginModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8D2F2805F0F8A25F2ACAD8E1 /* libPods-MyLoginModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLoginModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		953361F8F22CD5618A5D8CD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3991C5261074BBB758883D6 /* Pods-MyLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLoginModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC25C8CABEEF1BFC6EE4A82A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D4384F93BE0C63EE147131BE /* Pods-MyLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLoginModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECA4D53B9D67A0A4D96F6968 /* Pods_MyLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45FACFF72D135875E76DB34 /* libPods-MyLoginModule_Tests.a in Frameworks */,
+				35C9ADF5AD1E764D0BD0A63A /* Pods_MyLoginModule_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +38,8 @@
 		5D05CD134DF463BB4913D630 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35FFD9E99346AAB59220E854 /* Pods-MyLoginModule_Tests.debug.xcconfig */,
-				385F68FC1992D5C4AD151465 /* Pods-MyLoginModule_Tests.release.xcconfig */,
+				D4384F93BE0C63EE147131BE /* Pods-MyLoginModule_Tests.debug.xcconfig */,
+				B3991C5261074BBB758883D6 /* Pods-MyLoginModule_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5D05CD134DF463BB4913D630 /* Pods */,
-				85A3F457AD2C4BB6F77624A0 /* Frameworks */,
+				9CFE531A054D2DB2CB5BBAC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +90,10 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		85A3F457AD2C4BB6F77624A0 /* Frameworks */ = {
+		9CFE531A054D2DB2CB5BBAC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D2F2805F0F8A25F2ACAD8E1 /* libPods-MyLoginModule_Tests.a */,
+				ECA4D53B9D67A0A4D96F6968 /* Pods_MyLoginModule_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,12 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyLoginModule_Tests" */;
 			buildPhases = (
-				5C290401599D327800C7E787 /* [CP] Check Pods Manifest.lock */,
+				4B82E3AD2532C6D1B0B5204B /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				07A2FCFCAD6353E8FB67BB2B /* [CP] Embed Pods Frameworks */,
-				70CB8A13BB146ED58C3E3F11 /* [CP] Copy Pods Resources */,
+				C75655E90886007CCD7636B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,27 +167,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07A2FCFCAD6353E8FB67BB2B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/double-conversion/double-conversion.framework/double-conversion",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C290401599D327800C7E787 /* [CP] Check Pods Manifest.lock */ = {
+		4B82E3AD2532C6D1B0B5204B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,22 +189,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70CB8A13BB146ED58C3E3F11 /* [CP] Copy Pods Resources */ = {
+		C75655E90886007CCD7636B5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MyLoginModule/MyLoginModule.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLoginModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLoginModule_Tests/Pods-MyLoginModule_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -353,7 +332,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35FFD9E99346AAB59220E854 /* Pods-MyLoginModule_Tests.debug.xcconfig */;
+			baseConfigurationReference = D4384F93BE0C63EE147131BE /* Pods-MyLoginModule_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -375,7 +354,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F68FC1992D5C4AD151465 /* Pods-MyLoginModule_Tests.release.xcconfig */;
+			baseConfigurationReference = B3991C5261074BBB758883D6 /* Pods-MyLoginModule_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

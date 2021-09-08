@@ -1,4 +1,4 @@
-module MyLoginModule {
+framework module MyLoginModule {
   umbrella header "MyLoginModule-umbrella.h"
 
   export *
