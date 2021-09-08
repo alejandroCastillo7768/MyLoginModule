@@ -1,0 +1,29 @@
+{
+  "name": "MyLoginModule",
+  "version": "1.1.1",
+  "summary": "A brief description of MyLoginModule.",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alejandroCastillo7768/MyLoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alejandroCastillo7768": "alejandro.castillo@fluxit.com.ar"
+  },
+  "source": {
+    "git": "https://github.com/alejandroCastillo7768/MyLoginModule.git",
+    "tag": "1.1.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MyLoginModule/Classes/**/*",
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

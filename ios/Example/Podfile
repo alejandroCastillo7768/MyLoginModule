@@ -1,0 +1,72 @@
+#source 'https://github.com/facebook/react-native.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+#
+#use_frameworks!
+#target 'MyLoginModule_Tests' do
+#  pod 'MyLoginModule', :path => '../'
+#
+#  # Pods for React-Native start
+#    pod 'FBLazyVector'
+#    pod 'FBReactNativeSpec'
+#    pod 'RCTRequired'
+#    pod 'RCTTypeSafety'
+#    pod 'React'
+#    pod 'React-Core'
+#    pod 'React-CoreModules'
+#    pod 'React-Core/DevSupport'
+#    pod 'React-RCTActionSheet'
+#    pod 'React-RCTAnimation'
+#    pod 'React-RCTBlob'
+#    pod 'React-RCTImage'
+#    pod 'React-RCTLinking'
+#    pod 'React-RCTNetwork'
+#    pod 'React-RCTSettings'
+#    pod 'React-RCTText'
+#    pod 'React-RCTVibration'
+#    pod 'React-Core/RCTWebSocket'
+#
+#    pod 'React-cxxreact'
+#    pod 'React-jsi'
+#    pod 'React-jsiexecutor'
+#    pod 'React-jsinspector'
+#    pod 'ReactCommon/jscallinvoker'
+#    pod 'ReactCommon/turbomodule/core'
+#    pod 'Yoga'
+#
+#    pod 'DoubleConversion'
+#    pod 'glog'
+#    pod 'Folly'
+#
+#end
+
+
+require_relative '../../node_modules/react-native/scripts/react_native_pods'
+require_relative '../../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/facebook/react-native.git'
+
+platform :ios, '11.0'
+
+target 'MyLoginModule_Tests' do
+
+  pod 'MyLoginModule', :path => '../'
+
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  use_flipper!()
+
+  post_install do |installer|
+    react_native_post_install(installer)
+  end
+end
